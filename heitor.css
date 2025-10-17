@@ -1,0 +1,229 @@
+
+     
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       
+        body {
+            font-family: 'Roboto', sans-serif; 
+            background-image: url("https://roteirobaby.com.br/wp-content/uploads/2022/09/WhatsApp-Image-2022-09-14-at-11.32.13-1024x685.jpeg");
+            color: #111111;
+        }
+
+        a {
+            text-decoration: none;
+            color: #111111;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        /* Botões de Ação Comuns */
+        .btn-primary {
+            display: inline-block;
+            padding: 10px 25px;
+            background-color: #111111;
+            color: #ffffff;
+            border-radius: 5px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: #555555;
+        }
+
+        .btn-secondary {
+            display: inline-block;
+            padding: 8px 15px;
+            border: 2px solid #111111;
+            color: #111111;
+            border-radius: 20px;
+            font-weight: 500;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .btn-secondary:hover {
+            background-color: #111111;
+            color: #ffffff;
+        }
+
+        /* --- Cabeçalho e Navegação --- */
+        .main-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background-color: #ffffff;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        .logo a {
+            font-size: 1.8em;
+            font-weight: 900; /* Tipografia forte (Black) */
+            letter-spacing: 3px;
+        }
+
+        .main-nav ul {
+            display: flex;
+            gap: 30px;
+        }
+
+        .main-nav a {
+            font-weight: 500;
+            padding: 5px 0;
+            transition: opacity 0.3s;
+        }
+
+        .main-nav a:hover {
+            opacity: 0.7;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .header-actions input[type="text"] {
+            padding: 8px 15px;
+            border: 1px solid #cccccc;
+            border-radius: 20px;
+            font-size: 0.9em;
+            outline: none;
+        }
+        
+    
+        .hero-section {
+          
+            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://roteirobaby.com.br/wp-content/uploads/2022/09/WhatsApp-Image-2022-09-14-at-11.32.13-1024x685.jpeg') center center / cover no-repeat;
+            height: 80vh; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 50px;
+            color: #ffffff; 
+             background-size: cover;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            margin-top: 20vh; /* Empurrando para baixo para focar o conteúdo */
+        }
+
+        .hero-content h1 {
+            font-size: 6em;
+            font-weight: 900;
+            margin-bottom: 15px;
+            line-height: 1.1;
+        }
+
+        .hero-content p {
+            font-size: 1.4em;
+            margin-bottom: 30px;
+        }
+
+        /* Modificação para o botão do hero para melhor contraste */
+        .hero-section .btn-primary {
+            background-color: #ffffff;
+            color: #111111;
+        }
+        .hero-section .btn-primary:hover {
+            background-color: #dddddd;
+        }
+
+        /* --- Seção de Produtos --- */
+        .product-grid {
+            padding: 80px 50px;
+            text-align: center;
+        }
+
+        .product-grid h2 {
+            font-size: 3em;
+            margin-bottom: 50px;
+            font-weight: 900;
+        }
+
+        .product-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .product-card {
+            flex: 1;
+            max-width: 350px;
+            text-align: left;
+        }
+
+        .product-image {
+            height: 350px;
+          
+            background: url('https://via.placeholder.com/350x350/f5f5f5/333333?text=PRODUTO') center center / cover no-repeat;
+            margin-bottom: 15px;
+        }
+
+        .product-card h3 {
+            font-size: 1.5em;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .product-card p {
+            color: #555555;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+        
+        /* --- Rodapé --- */
+        .main-footer {
+            background-color: #111111;
+            color: #ffffff;
+            padding: 30px 50px;
+            text-align: center;
+        }
+
+        .footer-links ul {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 15px;
+        }
+
+        .footer-links a {
+            color: #cccccc;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: #ffffff;
+        }
+
+        .main-footer p {
+            font-size: 0.8em;
+            color: #777777;
+        }
+
+     
+
+        .table, tr, td, th {
+            border: solid 5px color(a98-rgb red green blue);
+            border-collapse: collapse;
+            width: 35%;
+            margin: 0% auto;
+            border: 2px solid rgb(255, 255, 255);
+        }
+
+
+        

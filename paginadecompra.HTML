@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online - Pesque & Pague Peixe Grande</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #00641e; 
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .produto {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .produto img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+
+        .preco {
+            font-size: 1.5em;
+            color: #006e25;
+            margin: 10px 0;
+        }
+
+        .btn-comprar {
+            background-color: #ff5722;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-comprar:hover {
+            background-color: #e64a19;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🎣 Bay-Fishing - Kits e Petiscos 🐠</h1>
+        <p>Tudo o que você precisa para seu dia de pesca e lazer!</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="produto">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.JrEAnPtFMm5AGUISMgH9DgHaHa?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Kit de Pesca Iniciante"> 
+            <h2>Kit de Pesca Iniciante</h2>
+            <p>Vara simples, linha, anzóis e iscas básicas. Perfeito para o primeiro peixe!</p>
+            <div class="preco">R$ 49,90</div>
+            <button class="btn-comprar" onclick="alert('Funcionalidade de Carrinho requer JavaScript! Este é apenas um exemplo HTML.');">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="produto">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.SL8VfoQ775avu6q9hTJkpwHaE5?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Porção de Tilápia Frita">
+            <h2>Porção de Tilápia Frita (M)</h2>
+            <p>500g de tilápia fresca, crocante por fora e macia por dentro. Acompanha molho da casa.</p>
+            <div class="preco">R$ 35,00</div>
+            <button class="btn-comprar" onclick="alert('Funcionalidade de Carrinho requer JavaScript! Este é apenas um exemplo HTML.');">Adicionar ao Pedido</button>
+        </div>
+
+        <div class="produto">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.vLerrJ8ZKTmTg1n8jkykZQHaDt?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Aluguel de Vara Profissional">
+            <h2>Aluguel de Vara Profissional</h2>
+            <p>Aluguel por dia de vara de alta performance. Linha e isca viva inclusas.</p>
+            <div class="preco">R$ 25,00 / dia</div>
+            <button class="btn-comprar" onclick="alert('Funcionalidade de Carrinho requer JavaScript! Este é apenas um exemplo HTML.');">Alugar Agora</button>
+        </div>
+
+        <div class="produto">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.v2-v3IJVz_-OsK7mJhXZGQHaGR?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Balde de Isca Viva">
+            <h2>Balde de Isca Viva</h2>
+            <p>Mix de minhocas e larvas frescas. Atraia os peixes maiores!</p>
+            <div class="preco">R$ 15,00</div>
+            <button class="btn-comprar" onclick="alert('Funcionalidade de Carrinho requer JavaScript! Este é apenas um exemplo HTML.');">Adicionar ao Carrinho</button>
+        </div>
+         <section class="titulo">
+            <p style="text-align: center;">Video demonstrativo</p>
+       
+        
+       <div class="video-conteiner-quadrado">
+        <h3></h3>
+        <iframe src="https://www.youtube.com/embed/qErcKiZ22Zw?si=GUqf8xdxe6n9JP7I"
+        title="Video circular"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-midea; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+       </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Pesque & Pague Peixe Grande.</p>
+    </footer>
+
+</body>
+</html>
